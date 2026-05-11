@@ -6,4 +6,4 @@ notaB = float(input())
 
 media_ponderada = (notaA * pesoA + notaB * pesoB) / (pesoA + pesoB)
 
-print(media_ponderada)
+print(f"MEDIA = {media_ponderada:.5f}")
